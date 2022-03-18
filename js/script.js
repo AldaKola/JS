@@ -4,7 +4,7 @@ var date_regex =  /^(0?[1-9]|[12][0-9]|3[01])[\/\.](0?[1-9]|1[012])[\/\.]\d{4}$/
 function validateDate(){
     let dateInput = document.getElementById('date').value;
     if(dateInput == null || dateInput ==''){
-        alert("Please Fill All Required Field");
+        alert("Please Fill the Required Field");
         return false; 
 
     }
